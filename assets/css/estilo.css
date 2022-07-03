@@ -1,0 +1,24 @@
+/* CSS global */
+@import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css';
+@import './animacoes/animacoes.css';
+@import './animacoes/simple-anime.css';
+
+/* Utilidades */
+@import './utilidades/componentes.css';
+@import './utilidades/cores.css';
+@import './utilidades/tipografia.css';
+
+/* MENUS */
+
+@import './menus/menusimples.css';
+@import './menus/menuprincipal.css';
+
+/* INFORMAÇÕES */
+@import './informacoes/experiencia.css';
+@import './informacoes/formacao.css';
+@import './informacoes/sobre.css';
+
+/* PROJETOS */
+@import './projetos/projetos.css'

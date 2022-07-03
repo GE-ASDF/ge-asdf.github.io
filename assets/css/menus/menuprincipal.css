@@ -1,0 +1,38 @@
+.menuPrincipal{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, max-content));
+    gap:20px;
+    justify-content: center;
+}
+.box{
+    padding:40px 20px;
+    height: auto;
+    background-color: var(--cor-5);
+    border-radius: 4px;
+}
+.box h2{
+    margin-bottom: 12px;
+}
+.box p{
+    margin-bottom: 4px;
+}
+.box a{
+    display: flex;
+    align-items: center;
+}
+.box a::after{
+    content:"";
+    background: url("../../images/icons/seta.svg") no-repeat;
+    width: 20px;
+    height: 14px;
+    margin-left: 10px;
+}
+.box a:hover::after{
+    animation:setaToRight 0.3s alternate infinite;
+}
+
+@media(max-width:800px){
+    .box button:hover::after{
+        animation:none;
+    }
+}

@@ -1,0 +1,17 @@
+#header{
+    background-color:var(--cor-3) ;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:60px 0px;
+}
+.header-logo, .header-titles{
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+.header-titles{
+    text-align: center;
+    grid-row:2;
+}

@@ -1,0 +1,36 @@
+.header-menuSimples{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--cor-4);
+    border-radius: 4px;
+}
+.left{
+    justify-self: start;
+}
+.left img{
+    margin-bottom:20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.right{
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    flex-direction:column; 
+}
+.right a{
+    display: block;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align: right;
+}
+
+@media(max-width:359px){
+    #myName{
+        font-size:3rem;
+    }
+    #text-header{
+        font-size: 1rem;
+    }
+}
