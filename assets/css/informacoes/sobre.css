@@ -1,0 +1,51 @@
+#sobre{
+    margin-bottom: 120px;
+    margin-top:120px;
+}
+.sobre{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap:30px;
+    position: relative;
+}
+.sobre h1{
+    text-align: right;
+    grid-row: 1 / -1;
+}
+.sobre .imagem{
+    grid-column:1 / -1;
+    grid-row: 2 / 5;
+}
+.sobre .imagem img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.pisca{
+    animation:pisca 1s alternate infinite;
+}
+@media(max-width:900px){
+    .sobre{
+        display: grid;
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+    .imagem{
+        grid-column: 1 / -1;
+    }
+    .sobre .imagem{
+       grid-row: 3 / 4;
+    }
+    .sobre .imagem img{
+        height: 280px;
+        object-fit: cover;
+    }
+}
+@media(max-width:900px){
+    .sobre h1{
+        font-size: 2rem;
+    }
+    .sobre p{
+        font-size: 1rem;
+    }
+}

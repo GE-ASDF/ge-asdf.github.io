@@ -1,0 +1,79 @@
+.container{
+    padding:20px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.btn{
+    display: inline-block;
+    background:linear-gradient(#ffbf00, #f2a50c);
+    border-radius:4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    text-transform:uppercase;
+    color:var(--cor-p5);
+    font:600 1.125rem/1.35 'Poppins', sans-serif;
+    padding:16px 32px;
+    max-width: max-content;
+    border:none;
+    cursor: pointer;
+}
+.btnS{
+    padding:5px 10px;
+    background-color: var(--cor-12);
+    text-transform: uppercase;
+}
+.col-2{
+    grid-column: 1 / -1;
+}
+
+.link::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    margin-top: 4px;
+}
+.link:hover::after{
+    transition:width 0.3s ease-in-out; 
+    width: 100%;
+    background-color: var(--cor-w);
+}
+
+.backToTop{
+    background-color: #E5B21A;
+    position:fixed;
+    width: 10px;
+    height:50px;
+    right:30px;
+    bottom:30px;
+    cursor: pointer;
+}
+.backToTop::before{
+    content:"";
+    width: 10px;
+    height: 30px;
+    background-color: #E5B21A;
+    position:absolute;
+    transform: rotate(45deg);
+    top:-5px;
+    left:-8px;
+}
+.backToTop::after{
+    content:"";
+    width: 10px;
+    height: 30px;
+    background-color: #E5B21A;
+    position:absolute;
+    transform: rotate(-45deg);
+    top:-5px;
+    right:-8px;
+}
+
+.js .js-scroll{
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+}
+.js .js-scroll.ativo{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: all 1.4s;
+}
