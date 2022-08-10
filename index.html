@@ -138,48 +138,13 @@
                 </div>
                 <div class="cursos-intensivos">
                     <h2 @load="fetchAllInformation" class="font-2-m cor-12">Cursos intensivos</h2>
-                    <div  class="cursos" v-for="informacao in informacoes">
-                        <div class="curso">
-<<<<<<< HEAD
+                    <div  class="cursos">
+                        <div class="curso" v-for="informacao in informacoes">
                             <h2 class="font-2-m cor-w">{{informacao.nome}}</h2>
                             <p class="font-1-m cor-12">{{informacao.cargaHoraria}}</p>
                             <p class="font-1-m cor-12" v-if="informacao.certificado !== ''"><a :href="informacao.certificado" target="_blank">Ver certificado</a></p>
                             <p class="font-1-m cor-12" v-else>Certificado impresso</a></p>
-=======
-                            <h2 class="font-2-m cor-w">UI design para iniciantes</h2>
-                            <p class="font-1-m cor-12">34h</p>
-                            <p class="font-1-m cor-12"><a href="https://www.origamid.com/certificate/5e61bca4/" target="_blank">Ver certificado</a></p>
                         </div>
-                        <div class="curso">
-                            <h2 class="font-2-m cor-w">UI design avançado</h2>
-                            <p class="font-1-m cor-12">30h</p>
-                            <p class="font-1-m cor-12"><a href="https://www.origamid.com/certificate/491b557a/" target="_blank">Ver certificado</a></p>
-                        </div>
-                        <div class="curso">
-                            <h2 class="font-2-m cor-w">HTML e CSS para iniciantes</h2>
-                            <p class="font-1-m cor-12">46h</p>
-                            <p class="font-1-m cor-12"><a href="https://www.origamid.com/certificate/b83cbc07/" target="_blank">Ver certificado</a></p>
-                        </div>
-                        <div class="curso">
-                            <h2 class="font-2-m cor-w">HTML, CSS e JavaScript</h2>
-                            <p class="font-1-m cor-12">54h</p>
-                            <p class="font-1-m cor-12"><a href="https://www.udemy.com/certificate/UC-c000e8cc-6a6c-441b-8707-93a0bc70eff7/" target="_blank">Ver certificado</a></p>
-                        </div>
-                        <div class="curso">
-                            <h2 class="font-2-m cor-w">MS Access do básico ao VBA</h2>
-                            <p class="font-1-m cor-12">350h</p>
-                            <p class="font-1-m cor-12">Certificado impresso</p>
-                        </div>
-                        <div class="curso">
-                            <h2 class="font-2-m cor-w">PHP e JavaScript - Clube Full-Stack</h2>
-                            <p class="font-1-m cor-12">109h</p>
-                            <p class="font-1-m cor-12"><a href="https://www.udemy.com/certificate/UC-47ac77e2-1193-49c2-8c96-f0e3399afb30/" target="_blank">Ver certificado</a></p>
-                        </div>
-                        <div class="curso">
-                            <h2 class="font-2-m cor-w">Desenvolvedor júnior em PHP</h2>
-                            <p class="font-1-m cor-12">25h</p>
-                            <p class="font-1-m cor-12">Certificado impresso</p>
->>>>>>> 196332ea1198eba4c9ced32a94ce4fa46173bd30
                         </div>
                     </div>
                         <div id="idiomas" class="idiomas cor-w">
