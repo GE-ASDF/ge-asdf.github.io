@@ -33,5 +33,10 @@
         "nome":"Desenvolvedor júnior em PHP",
         "cargaHoraria":"25h",
         "certificado":""
+    },
+    {
+        "nome":"Formação NodeJS",
+        "cargaHoraria":"Em conclusão",
+        "certificado":""
     }
 ]
