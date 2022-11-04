@@ -25,7 +25,7 @@
     background-color: var(--cor-15);
     border-radius:4px;
     width: 320px;
-    margin-bottom: 24px;
+    margin:0px 10px 24px 0px;
     position:relative;
 }
 .formacao-curso::before{
@@ -51,7 +51,10 @@
 .idiomas p span{
     color:var(--cor-10);
 }
-
+.graduacoes{
+    display: flex;
+    flex-wrap: wrap;
+}
 @media(max-width:620px){
     #formacao h1{
         font-size: 5rem;
