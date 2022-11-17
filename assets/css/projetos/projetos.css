@@ -42,6 +42,14 @@
     background: url("../../images/projetos/projeto3.png");
     background-size: cover;
 }
+.projeto4 .imagemProjeto{
+    background: url("../../images/projetos/projeto4.png");
+    background-size: cover;
+}
+.projeto5 .imagemProjeto{
+    background: url("../../images/projetos/projeto5.png");
+    background-size: cover;
+}
 
 @media (max-width:800px) {
     .main .projeto{
