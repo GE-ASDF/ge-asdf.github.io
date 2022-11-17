@@ -35,6 +35,10 @@
     background: url("../../images/projetos/projeto2.png");
     background-size: cover;
 }
+.projeto3 .imagemProjeto{
+    background: url("../../images/projetos/projeto3.png");
+    background-size: cover;
+}
 
 @media (max-width:800px) {
     .main .projeto{
